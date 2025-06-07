@@ -2,7 +2,7 @@
 FROM eclipse-temurin:17-jdk-alpine
 
 # Copiamos el JAR generado desde la carpeta del subproyecto
-COPY servicio/target/servicio-0.0.1-SNAPSHOT.jar app.jar
+COPY target/servicio-0.0.1-SNAPSHOT.jar app.jar
 
 # Exponemos el puerto 8080 que usa Spring Boot por defecto
 EXPOSE 8080
