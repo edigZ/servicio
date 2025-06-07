@@ -38,4 +38,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: edigz/servicio:dev
+          tags: edigz/msoservicios:dev
